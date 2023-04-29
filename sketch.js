@@ -1,6 +1,6 @@
 let state=0, bot;
 function setup() {
-  createCanvas(900, 750);
+  createCanvas(1500, 700);
   frameRate(500);
   bot = new Boat(width/2, height);
   noiseSeed(99);
